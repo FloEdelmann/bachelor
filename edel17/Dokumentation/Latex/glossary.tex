@@ -1,0 +1,181 @@
+\newglossaryentry{dmx-spi-data.txt}{
+    name={dmx-spi-data.txt},
+    description={Example DMX data received with \glsfont{spi-receive.c}}
+}
+\newglossaryentry{dmxcreator.pcap}{
+    name={dmxcreator.pcap},
+    description={An example \emph{pcap} file that was captured with Wireshark during executing the procedure described in \cref{tbl:dmxcreator-wireshark-procedure}.}
+}
+\newglossaryentry{spi-receive.c}{
+    name={spi-receive.c},
+    description={A simple program that reads in 8192 bytes four times from SPI's \emph{MISO} bus and outputs them in binary format.}
+}
+\newglossaryentry{init-olad.sh}{
+    name={init-olad.sh},
+    description={Init script that is executed automatically after Raspberry Pi has booted. It starts the OLA daemon and initializes GPIO pins.}
+}
+\newglossaryentry{eagle:extension-board.brd}{
+    name={eagle/extension-board.brd},
+    text={extension-board.brd},
+    description={EAGLE electrical circuit layout of the extension board.}
+}
+\newglossaryentry{eagle:extension-board.sch}{
+    name={eagle/extension-board.sch},
+    text={extension-board.sch},
+    description={EAGLE electrical circuit schematic of the extension board.}
+}
+\newglossaryentry{configure.ac}{
+    name={ola/configure.ac},
+    text={configure.ac},
+    description={Source file for OLA's build process where I added a line to support the \emph{SPI DMX Plugin}.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/configure.ac}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/configure.ac}}
+}
+\newglossaryentry{Ola.proto}{
+    name={ola/common/protocol/Ola.proto},
+    text={common/protocol/Ola.proto},
+    description={Specifies all plugin ID constants.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/common/protocol/Ola.proto}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/common/protocol/Ola.proto}}
+}
+\newglossaryentry{ola.udev}{
+    name={ola/debian/ola.udev},
+    text={debian/ola.udev},
+    description={\emph{udev} rules that allow users in the \emph{plugdev} group to communicate with USB devices recognized by OLA.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/debian/ola.udev}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/debian/ola.udev}}
+}
+\newglossaryentry{olad:DynamicPluginLoader.cpp}{
+    name={ola/olad/DynamicPluginLoader.cpp},
+    text={olad/DynamicPluginLoader.cpp},
+    description={Loads and initializes OLA's plugins if they were not disabled at build time.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/olad/DynamicPluginLoader.cpp}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/olad/DynamicPluginLoader.cpp}}
+}
+\newglossaryentry{plugins:Makefile.mk}{
+    name={ola/plugins/Makefile.mk},
+    text={plugins/Makefile.mk},
+    description={Includes all individual plugin Makefiles.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/Makefile.mk}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/Makefile.mk}}
+}
+\newglossaryentry{spidmx:Makefile.mk}{
+    name={ola/plugins/spidmx/Makefile.mk},
+    text={Makefile.mk},
+    description={Makefile for \emph{SPI DMX Plugin}'s files.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/Makefile.mk}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/Makefile.mk}}
+}
+\newglossaryentry{spidmx:README.md}{
+    name={ola/plugins/spidmx/README.md},
+    text={README.md},
+    description={Plugin description of the \emph{SPI DMX Plugin}.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/README.md}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/README.md}}
+}
+\newglossaryentry{spidmx:SPIDMXDevice.cpp}{
+    name={ola/plugins/spidmx/SPIDMXDevice.cpp},
+    text={SPIDMXDevice.cpp},
+    description={Represents an SPI device and manages thread, widget and input / output ports.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXDevice.cpp}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXDevice.cpp}}
+}
+\newglossaryentry{spidmx:SPIDMXDevice.h}{
+    name={ola/plugins/spidmx/SPIDMXDevice.h},
+    text={SPIDMXDevice.h},
+    description={Header file for \glsfont{SPIDMXDevice.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXDevice.h}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXDevice.h}}
+}
+\newglossaryentry{spidmx:SPIDMXParser.cpp}{
+    name={ola/plugins/spidmx/SPIDMXParser.cpp},
+    text={SPIDMXParser.cpp},
+    description={Parses an SPI buffer into a \emph{DmxBuffer} and notifies a callback when a DMX packet is received completely.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXParser.cpp}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXParser.cpp}}
+}
+\newglossaryentry{spidmx:SPIDMXParser.h}{
+    name={ola/plugins/spidmx/SPIDMXParser.h},
+    text={SPIDMXParser.h},
+    description={Header file for \glsfont{SPIDMXParser.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXParser.h}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXParser.h}}
+}
+\newglossaryentry{spidmx:SPIDMXPlugin.cpp}{
+    name={ola/plugins/spidmx/SPIDMXPlugin.cpp},
+    text={SPIDMXPlugin.cpp},
+    description={Looks for possible SPI devices to instantiate and is managed by the OLA daemon.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXPlugin.cpp}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXPlugin.cpp}}
+}
+\newglossaryentry{spidmx:SPIDMXPlugin.h}{
+    name={ola/plugins/spidmx/SPIDMXPlugin.h},
+    text={SPIDMXPlugin.h},
+    description={Header file for \glsfont{SPIDMXPlugin.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXPlugin.h}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXPlugin.h}}
+}
+\newglossaryentry{spidmx:SPIDMXPort.h}{
+    name={ola/plugins/spidmx/SPIDMXPort.h},
+    text={SPIDMXPort.h},
+    description={Represents the input / output ports that hook into the thread.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXPort.h}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXPort.h}}
+}
+\newglossaryentry{spidmx:SPIDMXThread.cpp}{
+    name={ola/plugins/spidmx/SPIDMXThread.cpp},
+    text={SPIDMXThread.cpp},
+    description={This thread runs while one or more ports are registered. It simultaneously reads / writes SPI data and then calls the parser. This is repeated in an infinite loop.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXThread.cpp}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXThread.cpp}}
+}
+\newglossaryentry{spidmx:SPIDMXThread.h}{
+    name={ola/plugins/spidmx/SPIDMXThread.h},
+    text={SPIDMXThread.h},
+    description={Header file for \glsfont{SPIDMXThread.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXThread.h}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXThread.h}}
+}
+\newglossaryentry{spidmx:SPIDMXWidget.cpp}{
+    name={ola/plugins/spidmx/SPIDMXWidget.cpp},
+    text={SPIDMXWidget.cpp},
+    description={A wrapper around the required \emph{spidev} calls.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXWidget.cpp}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXWidget.cpp}}
+}
+\newglossaryentry{spidmx:SPIDMXWidget.h}{
+    name={ola/plugins/spidmx/SPIDMXWidget.h},
+    text={SPIDMXWidget.h},
+    description={Header file for \glsfont{SPIDMXWidget.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f/plugins/spidmx/SPIDMXWidget.h}{https://github.com/OpenLightingProject/ola/blob/f9e7a7668768eea30ed015e7080a656887a0373f\\/plugins/spidmx/SPIDMXWidget.h}}
+}
+\newglossaryentry{usbdmx:AsyncPluginImpl.cpp}{
+    name={ola/plugins/usbdmx/AsyncPluginImpl.cpp},
+    text={AsyncPluginImpl.cpp},
+    description={Asynchronous implementation of the \emph{USB DMX Plugin}.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/AsyncPluginImpl.cpp}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/AsyncPluginImpl.cpp}}
+}
+\newglossaryentry{usbdmx:AsyncPluginImpl.h}{
+    name={ola/plugins/usbdmx/AsyncPluginImpl.h},
+    text={AsyncPluginImpl.h},
+    description={Header file for \glsfont{AsyncPluginImpl.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/AsyncPluginImpl.h}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/AsyncPluginImpl.h}}
+}
+\newglossaryentry{usbdmx:DMXCreator512Basic.cpp}{
+    name={ola/plugins/usbdmx/DMXCreator512Basic.cpp},
+    text={DMXCreator512Basic.cpp},
+    description={Implementation of the \emph{DMXCreator 512 Basic} USB protocol.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/DMXCreator512Basic.cpp}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/DMXCreator512Basic.cpp}}
+}
+\newglossaryentry{usbdmx:DMXCreator512Basic.h}{
+    name={ola/plugins/usbdmx/DMXCreator512Basic.h},
+    text={DMXCreator512Basic.h},
+    description={Header file for \glsfont{DMXCreator512Basic.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/DMXCreator512Basic.h}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/DMXCreator512Basic.h}}
+}
+\newglossaryentry{usbdmx:DMXCreator512BasicFactory.cpp}{
+    name={ola/plugins/usbdmx/DMXCreator512BasicFactory.cpp},
+    text={DMXCreator512BasicFactory.cpp},
+    description={Factory class for \emph{DMXCreator512Basic} widgets.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/DMXCreator512BasicFactory.cpp}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/DMXCreator512BasicFactory.cpp}}
+}
+\newglossaryentry{usbdmx:DMXCreator512BasicFactory.h}{
+    name={ola/plugins/usbdmx/DMXCreator512BasicFactory.h},
+    text={DMXCreator512BasicFactory.h},
+    description={Header file for \glsfont{DMXCreator512BasicFactory.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/DMXCreator512BasicFactory.h}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/DMXCreator512BasicFactory.h}}
+}
+\newglossaryentry{usbdmx:Makefile.mk}{
+    name={ola/plugins/usbdmx/Makefile.mk},
+    text={Makefile.mk},
+    description={Makefile for \emph{USB DMX Plugin}'s files.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/Makefile.mk}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/Makefile.mk}}
+}
+\newglossaryentry{usbdmx:SyncPluginImpl.cpp}{
+    name={ola/plugins/usbdmx/SyncPluginImpl.cpp},
+    text={SyncPluginImpl.cpp},
+    description={Synchronous implementation of the \emph{USB DMX Plugin}.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/SyncPluginImpl.cpp}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/SyncPluginImpl.cpp}}
+}
+\newglossaryentry{usbdmx:SyncPluginImpl.h}{
+    name={ola/plugins/usbdmx/SyncPluginImpl.h},
+    text={SyncPluginImpl.h},
+    description={Header file for \glsfont{SyncPluginImpl.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/SyncPluginImpl.h}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/SyncPluginImpl.h}}
+}
+\newglossaryentry{usbdmx:SyncronizedWidgetObserver.h}{
+    name={ola/plugins/usbdmx/SyncronizedWidgetObserver.h},
+    text={SyncronizedWidgetObserver.h},
+    description={Transfers widget \emph{add} / \emph{remove} events to another thread.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/SyncronizedWidgetObserver.h}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/SyncronizedWidgetObserver.h}}
+}
+\newglossaryentry{usbdmx:UsbDmxPlugin.cpp}{
+    name={ola/plugins/usbdmx/UsbDmxPlugin.cpp},
+    text={UsbDmxPlugin.cpp},
+    description={\emph{USB DMX Plugin} base class.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/UsbDmxPlugin.cpp}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/UsbDmxPlugin.cpp}}
+}
+\newglossaryentry{usbdmx:UsbDmxPlugin.h}{
+    name={ola/plugins/usbdmx/UsbDmxPlugin.h},
+    text={UsbDmxPlugin.h},
+    description={Header file for \glsfont{UsbDmxPlugin.cpp}.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/UsbDmxPlugin.h}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/UsbDmxPlugin.h}}
+}
+\newglossaryentry{usbdmx:WidgetFactory.h}{
+    name={ola/plugins/usbdmx/WidgetFactory.h},
+    text={WidgetFactory.h},
+    description={Contains the \emph{WidgetObserver} base class which receives notifications when Widgets are added or removed.\glsurl{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3/plugins/usbdmx/WidgetFactory.h}{https://github.com/OpenLightingProject/ola/blob/8c0aea98458b807ea9d94b241b7e729ef03158c3\\/plugins/usbdmx/WidgetFactory.h}}
+}

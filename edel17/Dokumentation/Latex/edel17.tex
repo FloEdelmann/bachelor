@@ -1,0 +1,186 @@
+%
+% Einfache LaTeX-Vorlage für Arbeiten am Lehrstuhl Kranzlmüller / MNM-Team
+% - optimiert für die Arbeit mit gängigen LaTeX-Editoren
+% - funktioniert ohne Makefile und Anpassungen der LaTeX-Verzeichnisstruktur
+% - verwendet Komaskript für ein (nach europäischen Gepflogenheiten) schöneres Layout
+%
+% v1, 2007 (Michael Brenner)
+% Diese Version: v1.1, 2012 (Michael Brenner)
+% Diese Version: v1.2, 2017 (Michael Brenner)
+%
+
+
+% falls nötig, hier spicken: https://github.com/Wandmalfarbe/pandoc-latex-template/blob/master/eisvogel.tex
+
+
+\documentclass[bibliography=totoc, listof=totoc, BCOR=5mm, DIV=12]{scrbook} % Rand für Bindung: 5mm / falls Index verwendet, ergänze "index=totoc" zu den Optionen
+%\usepackage{ngerman} % Trennung nach neuer deutscher Rechtschreibung, deutsche Sonderzeichen, z.B. \glqq und \grqq für deutsche Anführungszeichen
+\usepackage[utf8]{inputenc} % Umlaute im Text
+\usepackage{graphicx} % Einfügen von Grafiken  - für PDF-Latex: .pdf und .png (.jpg möglich, sollte aber vermieden werden)
+\usepackage{url}           % URL's (z.B. in Literatur) schöner formatieren
+\usepackage[
+    pdfborder={0 0 0.8}, % 0.8pt
+    bookmarksdepth=4,
+    bookmarksopen,
+    bookmarksopenlevel=1,
+    linktoc=all,
+    pdfauthor={Florian Edelmann},
+    pdftitle={Using a Raspberry Pi as a PC-DMX interface}
+]{hyperref}
+
+% custom packages
+\usepackage[sort=def, style=altlist, nolong, nosuper, notree]{glossaries-extra} % to enable file references; needs to be updated manually: http://www.hannahdee.eu/blog/?p=835 to /usr/share/texlive/texmf-dist/tex/latex/glossaries-extra/
+\usepackage[square, numbers]{natbib}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{eurosym}
+\usepackage{newunicodechar}
+\usepackage{pifont}
+\usepackage[nameinlink, noabbrev]{cleveref}
+\usepackage[svgnames]{xcolor}
+\usepackage{bookmark}
+\usepackage{needspace}
+\usepackage{enumitem}
+\usepackage[skip=4pt]{caption}
+\usepackage{etoolbox}
+
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+
+% custom definitions
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{3pt}\setlength{\parskip}{0pt}}
+\setlength{\parskip}{3pt}
+\renewcommand{\arraystretch}{1.4}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+
+\AtBeginEnvironment{quote}{\itshape}
+
+\RedeclareSectionCommand[afterskip=0.5pt]{paragraph}
+\RedeclareSectionCommand[beforeskip=40pt]{chapter}
+
+\newunicodechar{µ}{\textmu}
+
+\crefname{lstlisting}{listing}{listings}
+\Crefname{lstlisting}{Listing}{Listings}
+
+% code blocks and syntax highlighting
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    identifierstyle={},
+    commentstyle=\color[rgb]{0.56,0.35,0.01}\itshape,
+    stringstyle=\color[rgb]{0.31,0.60,0.02},
+    keywordstyle=\color[rgb]{0.13,0.29,0.53}\bfseries,
+    ndkeywordstyle={},
+    %
+    numberstyle=\color{Gray}\scriptsize\sffamily,
+    stepnumber=1,
+    numbersep=8pt,
+    %
+    upquote=true,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    %
+    inputencoding=utf8,
+    extendedchars=true,
+    literate={µ}{\textmu}1,
+    %
+    captionpos=t,
+    breaklines=true,
+    prebreak=\mbox{\scriptsize\textcolor{FireBrick}{$\hookleftarrow$}},
+    escapeinside={\%*}{*)},
+    basewidth=0.5em,
+    %
+    backgroundcolor=\color{WhiteSmoke},
+    framexleftmargin=6pt,
+    xleftmargin=6pt,
+    framextopmargin=3pt,
+    framexbottommargin=3pt,
+    frame=tb,
+    framerule=0pt,
+}
+
+\lstdefinestyle{myBash}{
+    language=bash,
+    morekeywords={sudo,},
+}
+
+\lstdefinestyle{myCpp}{
+    language=C++,
+    morekeywords={int8_t, uint8_t, uint16_t, NULL,},
+}
+
+
+% describe referenced files
+\newcommand{\glsfont}[1]{{\sffamily\mdseries\textup{#1}}} % can also be used by user
+\renewcommand*{\glsnamefont}[1]{\glsfont{#1}} % set heading font in glossary
+\renewcommand*{\glstextformat}[1]{\glsfont{#1}} % set font of \gls (-like) references
+\GlsXtrEnablePreLocationTag{\\\textit{referenced on page~}}{\\\textit{referenced on pages~}}
+\renewcommand{\GlsXtrFormatLocationList}{\textit}
+\newcommand{\glsurl}[2]{\\{\footnotesize\ttfamily\href{#1}{#2}}}
+\makeglossaries
+\input{glossary.tex}
+
+
+% Erzwinge direkte Platzierung von Floats (Here)
+\usepackage{float}
+\floatplacement{figure}{H}
+
+\graphicspath{{./}}
+
+\input{hyphenation} % in dieses File kommen Wörter die Latex nicht richtig trennt
+
+\begin{document}
+
+% ---------------------------------------------------------------
+\frontmatter % Titelblätter und Erklärung jeweils spezifisch für die jeweilige Uni einbinden
+    \pdfbookmark{Title}{title}
+    \input{./Titel/titel-lmu} % Titelblätter LMU
+    \thispagestyle{empty}
+    \cleardoublepage
+    \input{./Titel/erklaerung-lmu} % Erklärung (Arbeit selbstständig verfasst)
+    \thispagestyle{empty}
+    \cleardoublepage
+    \pdfbookmark{Abstract}{abstract}
+    \input{abstract} % Abstract
+    \thispagestyle{empty}
+    \cleardoublepage
+    \pdfbookmark[0]{\contentsname}{contents}
+    \tableofcontents % Inhaltsverzeichnis
+
+% ---------------------------------------------------------------
+\mainmatter % die eigentliche Arbeit
+
+    \input{body}
+    \glsaddallunused
+
+% ---------------------------------------------------------------
+\backmatter % ab hier keine Nummerierung mehr
+    \renewcommand{\lstlistlistingname}{List of Listings}
+    \renewcommand{\glossaryname}{List of Files}
+    \renewcommand{\glossarypreamble}{Files listed here are referenced from this document, the full files are included in the \emph{zip} archive handed in together with this Bachelor's Thesis. In some cases, an excerpt is included in the text (see the \protect\hyperlink{chapter*.11}{list of listings}). For readers who can only access the printed or PDF version of this document, online versions of the files are provided where possible.\vspace{0.7\baselineskip}}
+
+    {
+        \let\cleardoublepage\clearpage
+        \listoffigures
+        \listoftables
+        \lstlistoflistings
+        {
+            \setlist[description]{leftmargin=1.9em,labelindent=0pt}
+            \setlength{\parskip}{0pt}
+            \let\svglossentrydesc\glossentrydesc
+            \renewcommand*{\glossentrydesc}[1]{\vspace{-3pt}\svglossentrydesc{#1}}
+            \let\svitem\item
+            \def\item{\needspace{\baselineskip}\svitem}
+            \printglossary
+        }
+        \bibliographystyle{alphadin}
+        \bibliography{./Bib/edel17}
+    }
+
+\end{document}

@@ -1,0 +1,33 @@
+# generated from markdown sources
+# edel17/Dokumentation/Latex/abstract.tex
+# edel17/Dokumentation/Latex/body.tex
+
+# generated from SVG files but not lmu_siegel.pdf
+# edel17/Dokumentation/Latex/Bilder/*.pdf
+# !edel17/Dokumentation/Latex/Bilder/lmu_siegel.pdf
+
+# copied from Bilder/*
+# edel17/Dokumentation/Latex/Bilder/*.jpg
+# edel17/Dokumentation/Latex/Bilder/*.png
+
+# intermediate LaTeX files but not edel17.tex itself
+# edel17/Dokumentation/Latex/edel17.*
+# !edel17/Dokumentation/Latex/edel17.tex
+# edel17/Dokumentation/Latex/edel17/Titel/*.aux
+
+# generated from LaTeX
+# edel17/Dokumentation/Abstract.txt
+# edel17/Dokumentation/PDF/
+# edel17.pdf
+
+# working copy specific
+*.sublime-workspace
+node_modules/
+eagle/eagle.epf
+
+# backup files
+pigpio/*.bak
+eagle/*.b#*
+eagle/*.s#*
+eagle/.*.lck
+eagle-lbr/*.l#*

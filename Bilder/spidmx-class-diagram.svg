@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="851"
+   height="719.69373"
+   version="1.1"
+   id="svg409"
+   sodipodi:docname="spidmx-class-diagram.svg"
+   inkscape:version="0.92.2 (unknown)">
+  <metadata
+     id="metadata413">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview411"
+     showgrid="false"
+     inkscape:zoom="0.85898943"
+     inkscape:cx="724.12041"
+     inkscape:cy="323.40919"
+     inkscape:current-layer="svg409"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="3"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-paths="false"
+     inkscape:snap-intersection-paths="false"
+     inkscape:object-paths="false" />
+  <defs
+     id="defs35">
+    <clipPath
+       id="mx-clip-14-159-152-98-0">
+      <rect
+         x="14"
+         y="159"
+         width="152"
+         height="98"
+         id="rect2" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-334-151-152-26-0">
+      <rect
+         x="334"
+         y="151"
+         width="152"
+         height="26"
+         id="rect5" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-334-185-152-60-0">
+      <rect
+         x="334"
+         y="185"
+         width="152"
+         height="60"
+         id="rect8" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-4-431-232-41-0">
+      <rect
+         x="4"
+         y="431"
+         width="232"
+         height="41"
+         id="rect11" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-4-480-232-85-0">
+      <rect
+         x="4"
+         y="480"
+         width="232"
+         height="85"
+         id="rect14" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-319-431-182-84-0">
+      <rect
+         x="319"
+         y="431"
+         width="182"
+         height="84"
+         id="rect17" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-319-523-182-86-0">
+      <rect
+         x="319"
+         y="523"
+         width="182"
+         height="86"
+         id="rect20" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-584-431-262-26-0">
+      <rect
+         x="584"
+         y="431"
+         width="262"
+         height="26"
+         id="rect23" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-584-465-262-40-0">
+      <rect
+         x="584"
+         y="465"
+         width="262"
+         height="40"
+         id="rect26" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-319-751-182-26-0">
+      <rect
+         x="319"
+         y="751"
+         width="182"
+         height="26"
+         id="rect29" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-319-785-182-40-0">
+      <rect
+         x="319"
+         y="785"
+         width="182"
+         height="40"
+         id="rect32" />
+    </clipPath>
+  </defs>
+  <rect
+     style="fill:#eeeeec;stroke:#000000"
+     id="rect37"
+     pointer-events="none"
+     height="132"
+     width="160"
+     y="86.193733"
+     x="10.5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path39"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="M 10.5,112.19373 V 86.193734 h 160 v 25.999996 z" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#000000"
+     x="90"
+     y="104.52374"
+     id="text41">SPIDMXPlugin</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path45"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 10.5,116.19373 h 160" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="16"
+     y="137.69374"
+     id="text47">+ Id()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="16"
+     y="151.69374"
+     id="text49">+ Name()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="16"
+     y="165.69374"
+     id="text51">+ Description()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="29.588409"
+     y="179.69374"
+     id="text53">StartHook()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="29.588409"
+     y="193.69374"
+     id="text55">StopHook()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="29.588409"
+     y="207.69374"
+     id="text57">SetDefaultPreferences()</text>
+  <rect
+     style="fill:#eeeeec;stroke:#000000"
+     id="rect61"
+     pointer-events="none"
+     height="120"
+     width="160"
+     y="86.193733"
+     x="330.5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path63"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="M 330.5,112.19373 V 86.193734 h 160 v 25.999996 z" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#000000"
+     x="410"
+     y="104.52374"
+     id="text65">SPIDMXDevice</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="350"
+     y="129.69374"
+     id="text69">m_blocklength</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path73"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 330.5,142.19373 h 160" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="336"
+     y="163.69374"
+     id="text75">+ DeviceId()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="336"
+     y="177.69374"
+     id="text77">+ GetWidget()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="336"
+     y="191.69374"
+     id="text79"># StartHook()</text>
+  <rect
+     style="fill:#ffffff;stroke:#888888;stroke-opacity:1"
+     id="rect83"
+     pointer-events="none"
+     height="30"
+     width="160"
+     y="0.5"
+     x="10.5" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#888888;fill-opacity:1"
+     id="text85"
+     font-weight="bold"
+     font-size="12px"
+     y="20"
+     x="90">ola::Plugin</text>
+  <rect
+     style="fill:#ffffff;stroke:#888888;stroke-opacity:1"
+     id="rect101"
+     pointer-events="none"
+     height="30"
+     width="160"
+     y="0.5"
+     x="330.5" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#888888;fill-opacity:1"
+     id="text103"
+     font-weight="bold"
+     font-size="12px"
+     y="20"
+     x="411">ola::Device</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text123"
+     font-size="10px"
+     y="93.495735"
+     x="179">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text129"
+     font-size="10px"
+     y="93.795746"
+     x="304.30609">0..*</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text135"
+     font-size="12px"
+     y="93.693733"
+     x="245">searches</text>
+  <g
+     id="g1740"
+     transform="translate(0,-14.306266)">
+    <path
+       sodipodi:nodetypes="cc"
+       d="M 170.5,113.33 H 328.26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path119"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 316.26,119.83 13,-6.5 -13,-6.5"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path271-7"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+  </g>
+  <rect
+     style="fill:#ffffff;stroke:#888888;stroke-opacity:1"
+     id="rect141"
+     pointer-events="none"
+     height="30"
+     width="160"
+     y="250.50002"
+     x="330.5" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#888888;fill-opacity:1"
+     id="text143"
+     font-weight="bold"
+     font-size="12px"
+     y="270"
+     x="410">ola::thread::Thread</text>
+  <rect
+     style="fill:#ffffff;stroke:#888888;stroke-opacity:1"
+     id="rect149"
+     pointer-events="none"
+     height="30"
+     width="160"
+     y="250.50002"
+     x="635.5" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#888888;fill-opacity:1"
+     id="text151"
+     font-weight="bold"
+     font-size="12px"
+     y="270"
+     x="715">ola::BasicInputPort</text>
+  <rect
+     style="fill:#eeeeec;stroke:#000000"
+     id="rect157"
+     pointer-events="none"
+     height="160"
+     width="240"
+     y="336.19373"
+     x="0.5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path159"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 0.5,362.19373 v -26 h 240 v 26 z" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#000000"
+     x="120"
+     y="354.52371"
+     id="text161">SPIDMXWidget</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="20"
+     y="379.69373"
+     id="text165">m_fd</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="20"
+     y="393.69373"
+     id="text167">m_path</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path171"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 0.5,407.19373 h 240" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="6"
+     y="428.69373"
+     id="text173">+ Open()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="6"
+     y="442.69373"
+     id="text175">+ Close()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="6"
+     y="456.69373"
+     id="text177">+ IsOpen()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="6"
+     y="470.69373"
+     id="text179">+ SetupPort()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="6"
+     y="484.69373"
+     id="text181">+ ReadWrite(*tx_buf, *rx_buf, blocklength)</text>
+  <rect
+     style="fill:#eeeeec;stroke:#000000"
+     id="rect185"
+     pointer-events="none"
+     height="204"
+     width="190"
+     y="336.19373"
+     x="315.5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path187"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 315.5,362.19373 v -26 h 190 v 26 z" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#000000"
+     x="410"
+     y="354.52371"
+     id="text189">SPIDMXThread</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="335"
+     y="379.69373"
+     id="text193">m_receive_callback</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="335"
+     y="393.69373"
+     id="text195">m_dmx_rx_buffer</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="335"
+     y="407.69373"
+     id="text197">m_dmx_tx_buffer</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="335"
+     y="421.69373"
+     id="text199">m_spi_rx_buffer</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="335"
+     y="435.69373"
+     id="text201">m_spi_tx_buffer</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path205"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 315.5,450.19373 h 190" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="321"
+     y="471.69373"
+     id="text207">+ RegisterPort()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="321"
+     y="485.69373"
+     id="text209">+ UnregisterPort()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="321"
+     y="499.69373"
+     id="text211">+ WriteDMX(&amp;buffer)</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="321"
+     y="513.69373"
+     id="text213">+ GetDmxInBuffer()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="321"
+     y="527.69373"
+     id="text215">+ SetReceiveCallback(*callback)</text>
+  <rect
+     style="fill:#eeeeec;stroke:#000000"
+     id="rect219"
+     pointer-events="none"
+     height="100"
+     width="270"
+     y="336.19373"
+     x="580.5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path221"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 580.5,362.19373 v -26 h 270 v 26 z" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#000000"
+     x="715"
+     y="354.52371"
+     id="text223">SPIDMXInputPort</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="586"
+     y="379.69373"
+     id="text227">+ field: type</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path231"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 580.5,392.19373 h 270" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="586"
+     y="413.69373"
+     id="text233">+ ReadDMX()</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="586"
+     y="427.69373"
+     id="text235">+ PreSetUniverse(*old_universe, *new_universe)</text>
+  <g
+     id="g1712"
+     transform="translate(0,-64.306266)">
+    <path
+       sodipodi:nodetypes="cc"
+       d="M 580.5,450.83 H 507.74"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path239"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:4, 4;stroke-dashoffset:0" />
+    <path
+       d="m 519.74,444.33 -13,6.5 13,6.5"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path241"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+  </g>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text243"
+     font-size="11px"
+     y="396.73886"
+     x="548.23871">registers</text>
+  <g
+     id="g1708"
+     transform="translate(0,-77.646266)">
+    <path
+       d="m 505.5,541.67 h 200.33 c 6.66667,0 10,-3.33333 10,-10 v -17.83"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path249"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:4, 4;stroke-dashoffset:0"
+       sodipodi:nodetypes="cssc" />
+    <path
+       d="m 722.33,527.98795 -6.5,-13 -6.5,13"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path251"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+  </g>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text253"
+     font-size="11px"
+     y="477.08221"
+     x="607.82147">invokes callback</text>
+  <g
+     id="g1700"
+     style="stroke:#888888;stroke-opacity:1"
+     transform="translate(0.24276,-44.806266)">
+    <path
+       d="M 410.75724,380.5 V 343.80691"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path279"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#888888;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1" />
+    <path
+       d="m 410.25724,326.9243 8.5,17 h -17 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path281"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#888888;stroke-miterlimit:10;stroke-opacity:1" />
+  </g>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#888888;fill-opacity:1"
+     id="text283"
+     font-size="11px"
+     y="322.31668"
+     x="433">extends</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text303"
+     font-size="10px"
+     y="171.40173"
+     x="321">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text309"
+     font-size="10px"
+     y="315.79956"
+     x="174">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text315"
+     font-size="12px"
+     y="170.69374"
+     x="245">creates</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text325"
+     font-size="10px"
+     y="219.69374"
+     x="402">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text331"
+     font-size="10px"
+     y="344.98544"
+     x="292.26669">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text337"
+     font-size="12px"
+     y="221.69374"
+     x="340">creates</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text347"
+     font-size="10px"
+     y="171.69374"
+     x="498">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text353"
+     font-size="10px"
+     y="344.75754"
+     x="555.97394">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text359"
+     font-size="12px"
+     y="214.69374"
+     x="549">opens</text>
+  <rect
+     style="fill:#eeeeec;stroke:#000000"
+     id="rect365"
+     pointer-events="none"
+     height="100"
+     width="190"
+     y="616.19373"
+     x="315.5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path367"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 315.5,642.19373 v -26 h 190 v 26 z" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';text-anchor:middle;fill:#000000"
+     x="410"
+     y="633.52374"
+     id="text369">SPIDMXParser</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="335"
+     y="659.69373"
+     id="text373">state</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path377"
+     pointer-events="none"
+     stroke-miterlimit="10"
+     d="m 315.5,672.19373 h 190" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="321"
+     y="693.69373"
+     id="text379">+ ParseDmx(*buffer, chunksize)</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000"
+     x="321"
+     y="707.69373"
+     id="text381">+ SetCallback(*callback)</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text389"
+     font-size="10px"
+     y="554.69373"
+     x="418.50137">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text395"
+     font-size="10px"
+     y="594.41772"
+     x="418.50137">1</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#000000"
+     id="text401"
+     font-size="12px"
+     y="574.69373"
+     x="439">lets parse</text>
+  <g
+     id="g1724"
+     transform="translate(0,-64.306266)">
+    <path
+       sodipodi:nodetypes="cc"
+       d="M 315.5,450.83 H 242.74"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path259"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:4, 4;stroke-dashoffset:0" />
+    <path
+       d="m 254.62,444.33 -13,6.5 13,6.5"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path261"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.39999998;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="281.32333"
+     y="381.13306"
+     id="text1435"><tspan
+       sodipodi:role="line"
+       id="tspan1433"
+       x="281.32333"
+       y="381.13306">opens /</tspan><tspan
+       sodipodi:role="line"
+       x="281.32333"
+       y="397.93304"
+       id="tspan1437">reads</tspan></text>
+  <g
+     id="g1720"
+     transform="translate(0,-44.306266)">
+    <path
+       d="m 301.26,514.83 13,-6.5 -13,-6.5"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path271"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:4, 4;stroke-dashoffset:0"
+       inkscape:connector-curvature="0"
+       id="path1439"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       d="M 313.26,508.33 H 240.5"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <text
+     id="text1445"
+     y="458.67719"
+     x="274.92047"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.39999998;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       y="458.67719"
+       x="274.92047"
+       id="tspan1441"
+       sodipodi:role="line">invokes</tspan><tspan
+       id="tspan1443"
+       y="475.47717"
+       x="274.92047"
+       sodipodi:role="line">callback</tspan></text>
+  <g
+     id="g1728"
+     transform="translate(0,-44.306266)">
+    <path
+       sodipodi:nodetypes="cssssc"
+       d="m 490.83,220.83 h 30 c 6.66667,0 10,3.33333 10,10 v 153 c 0,6.66667 3.33333,10 10,10 h 37.77"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path343"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-miterlimit:10"
+       inkscape:connector-curvature="0"
+       id="path271-5"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       d="m 566.6,400.33001 13,-6.50001 -13,-6.5" />
+  </g>
+  <g
+     id="g1732"
+     transform="translate(0,-44.306266)">
+    <path
+       sodipodi:nodetypes="cssssssc"
+       d="m 410.83,250.5 v 10.33 c 0,6.66667 -3.33333,10 -10,10 h -120 c -6.66667,0 -10,3.33333 -10,10 v 102.84 c 0,6.66667 3.33333,10 10,10 h 32.77"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path321"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-miterlimit:10"
+       inkscape:connector-curvature="0"
+       id="path271-6"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       d="m 301.6,400.17 13,-6.5 -13,-6.5" />
+  </g>
+  <g
+     id="g1716"
+     transform="translate(0,-44.306266)">
+    <path
+       sodipodi:nodetypes="cccc"
+       d="m 410.83,584.5 v 16.33 20 37.43"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path385"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-miterlimit:10"
+       inkscape:connector-curvature="0"
+       id="path271-4"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       d="m 404.33,646.26 6.5,13 6.5,-13" />
+  </g>
+  <g
+     id="g1736"
+     transform="translate(0,-44.306266)">
+    <path
+       d="M 330.5,220.83 H 190.83 c -6.66667,0 -10,3.33333 -10,10 V 378.6"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path299"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10"
+       sodipodi:nodetypes="cssc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-miterlimit:10"
+       inkscape:connector-curvature="0"
+       id="path271-4-6"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       d="m 174.33,366.6 6.5,13 6.5,-13" />
+  </g>
+  <text
+     id="text1648"
+     y="179.69374"
+     x="17.588409"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1650"
+     y="193.69374"
+     x="17.588409"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1652"
+     y="207.69374"
+     x="17.588409"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1654"
+     y="129.69374"
+     x="338"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1656"
+     y="379.69373"
+     x="8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1658"
+     y="393.69373"
+     x="8"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1660"
+     y="379.69373"
+     x="323"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1662"
+     y="393.69373"
+     x="323"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1664"
+     y="407.69373"
+     x="323"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1666"
+     y="421.69373"
+     x="323"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1668"
+     y="435.69373"
+     x="323"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <text
+     id="text1670"
+     y="659.69373"
+     x="323"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#000000">–</text>
+  <g
+     id="g1700-3"
+     style="stroke:#888888;stroke-opacity:1"
+     transform="translate(305.24276,-44.806266)">
+    <path
+       d="M 410.75724,380.5 V 343.80691"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path279-5"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#888888;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1" />
+    <path
+       d="m 410.25724,326.9243 8.5,17 h -17 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path281-6"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#888888;stroke-miterlimit:10;stroke-opacity:1" />
+  </g>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#888888;fill-opacity:1"
+     id="text283-2"
+     font-size="11px"
+     y="322.31668"
+     x="737.99994">extends</text>
+  <g
+     id="g1700-9"
+     style="stroke:#888888;stroke-opacity:1"
+     transform="translate(0.24276,-294.80627)">
+    <path
+       d="M 410.75724,380.5 V 343.80691"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path279-1"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#888888;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1" />
+    <path
+       d="m 410.25724,326.9243 8.5,17 h -17 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path281-2"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#888888;stroke-miterlimit:10;stroke-opacity:1" />
+  </g>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#888888;fill-opacity:1"
+     id="text283-7"
+     font-size="11px"
+     y="72.316696"
+     x="433">extends</text>
+  <g
+     id="g1700-0"
+     style="stroke:#888888;stroke-opacity:1"
+     transform="translate(-319.75724,-294.80627)">
+    <path
+       d="M 410.75724,380.5 V 343.80691"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path279-9"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#888888;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1" />
+    <path
+       d="m 410.25724,326.9243 8.5,17 h -17 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path281-3"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#888888;stroke-miterlimit:10;stroke-opacity:1" />
+  </g>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Medium';text-anchor:middle;fill:#888888;fill-opacity:1"
+     id="text283-6"
+     font-size="11px"
+     y="72.316689"
+     x="113">extends</text>
+</svg>
